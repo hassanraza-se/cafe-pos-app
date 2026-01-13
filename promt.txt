@@ -1,0 +1,6 @@
+I want to create a POS for cafe and restaurant... the frontend is already completed and backend is under development
+
+- Frontend is in react js and backend is in nestJS with SQLite for local (offline mode) and MySQL for cloud (when online for cloud backup)
+- The app will be build with electron js
+- I already created electron app using the command `npm init electron-app@latest cafe-pos` with vite and typescript 
+

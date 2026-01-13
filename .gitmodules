@@ -1,0 +1,6 @@
+[submodule "src/frontend"]
+	path = src/frontend
+	url = https://github.com/hassanraza-se/service-serve.git
+[submodule "src/api"]
+	path = src/api
+	url = https://github.com/hassanraza-se/cafe-po-api.git
