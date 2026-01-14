@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="81bde2a8-fbb5-4d6f-82f5-291097ae686d" name="Changes" comment="fix linting and strictness options">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cafe-pos.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/forge.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api" beforeDir="false" afterPath="$PROJECT_DIR$/src/api" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/src/components/pos-license/LicenseManager.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/src/components/pos-license/LicenseManager.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/src/types/electron.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/src/types/electron.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/preload.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/preload.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.main.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.main.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.preload.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.preload.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.renderer.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.renderer.config.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="221" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/frontend" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hassanraza-se&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/hassanraza-se/service-serve.git&quot;,
+    &quot;accountId&quot;: &quot;3b85942a-2046-442f-9049-c3837b684409&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="38BPyH1h9v8iUKhvOxN3YfDwS9d" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "javascript.preferred.runtime.type.id": "node",
+    "last_opened_file_path": "/media/hassan/Working/My Resources/cafe-pos/src/frontend/src/types",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/media/hassan/Working/My Resources/cafe-pos/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.typescriptcompiler",
+    "ts.external.directory.path": "/media/hassan/Working/My Resources/cafe-pos/src/frontend/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecapSpentCounter">
+    <option name="endsOfQuotaMs" value="1768500008549" />
+    <option name="spentUsd" value="0.24289562" />
+  </component>
+  <component name="RecapUselessUpdatesCounter">
+    <option name="suspendCountdown" value="0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/frontend/src/types" />
+      <recent name="$PROJECT_DIR$/src/frontend/src/stores" />
+      <recent name="$PROJECT_DIR$/src/frontend/src/components" />
+      <recent name="$PROJECT_DIR$/src/frontend/src/hooks" />
+      <recent name="$PROJECT_DIR$/src/frontend/src" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.29346.242" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81bde2a8-fbb5-4d6f-82f5-291097ae686d" name="Changes" comment="" />
+      <created>1768270243413</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768270243413</updated>
+      <workItem from="1768270244605" duration="470000" />
+      <workItem from="1768271680598" duration="2129000" />
+      <workItem from="1768273817387" duration="1085000" />
+      <workItem from="1768274917033" duration="97000" />
+      <workItem from="1768275062785" duration="3152000" />
+      <workItem from="1768291566699" duration="4347000" />
+      <workItem from="1768297180732" duration="1222000" />
+      <workItem from="1768298418737" duration="978000" />
+      <workItem from="1768299413930" duration="121000" />
+      <workItem from="1768312694357" duration="950000" />
+      <workItem from="1768318107110" duration="6970000" />
+      <workItem from="1768326850844" duration="3752000" />
+      <workItem from="1768369014019" duration="10837000" />
+      <workItem from="1768388084856" duration="16084000" />
+    </task>
+    <task id="LOCAL-00001" summary="remove .idea from tracking">
+      <option name="closed" value="true" />
+      <created>1768273883101</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1768273883101</updated>
+    </task>
+    <task id="LOCAL-00002" summary="setting up electron with frontend">
+      <option name="closed" value="true" />
+      <created>1768299369606</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1768299369606</updated>
+    </task>
+    <task id="LOCAL-00003" summary="setting up electron with frontend">
+      <option name="closed" value="true" />
+      <created>1768299483598</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1768299483598</updated>
+    </task>
+    <task id="LOCAL-00004" summary="integrated backend api for real authentication">
+      <option name="closed" value="true" />
+      <created>1768370983375</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1768370983375</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated permissions and nav">
+      <option name="closed" value="true" />
+      <created>1768377490040</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1768377490040</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update mobile menu button on POS">
+      <option name="closed" value="true" />
+      <created>1768378362860</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1768378362860</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix linting and strictness options">
+      <option name="closed" value="true" />
+      <created>1768390368494</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1768390368495</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="remove .idea from tracking" />
+    <MESSAGE value="setting up electron with frontend" />
+    <MESSAGE value="integrated backend api for real authentication" />
+    <MESSAGE value="updated permissions and nav" />
+    <MESSAGE value="update mobile menu button on POS" />
+    <MESSAGE value="fix linting and strictness options" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix linting and strictness options" />
+  </component>
+</project>

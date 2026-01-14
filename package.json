@@ -3,7 +3,7 @@
   "productName": "Cafe POS",
   "version": "1.0.0",
   "description": "Cafe and Restaurant POS System",
-  "main": ".vite/build/main.js",
+  "main": ".vite/build/index.js",
   "private": true,
   "scripts": {
     "start": "electron-forge start",
@@ -11,18 +11,16 @@
     "make": "electron-forge make",
     "publish": "electron-forge publish",
     "lint": "eslint --ext .ts,.tsx .",
-
     "frontend:dev": "cd src/frontend && npm run dev",
     "frontend:build": "cd src/frontend && npm run build",
     "frontend:install": "cd src/frontend && npm install",
-
     "api:dev": "cd src/api && npm run start:dev",
     "api:build": "cd src/api && npm run build",
     "api:install": "cd src/api && npm install",
-
     "install:all": "npm install && npm run frontend:install && npm run api:install",
     "dev:all": "concurrently \"npm run api:dev\" \"npm run frontend:dev\" \"npm run start\"",
-    "build:all": "npm run frontend:build && npm run api:build && npm run package"
+    "build:all": "npm run frontend:build && npm run api:build && npm run package",
+    "build:electron": "tsc -p tsconfig.electron.json"
   },
   "keywords": [],
   "author": {
@@ -41,16 +39,20 @@
     "@electron-forge/plugin-vite": "^7.11.1",
     "@electron/fuses": "^1.8.0",
     "@types/electron-squirrel-startup": "^1.0.2",
-    "@typescript-eslint/eslint-plugin": "^5.62.0",
-    "@typescript-eslint/parser": "^5.62.0",
+    "@types/node": "^25.0.8",
+    "@typescript-eslint/eslint-plugin": "^8.53.0",
+    "@typescript-eslint/parser": "^8.53.0",
+    "@vitejs/plugin-react-swc": "^4.2.2",
     "concurrently": "^8.2.2",
     "electron": "39.2.7",
-    "eslint": "^8.57.1",
+    "eslint": "^9.39.2",
     "eslint-plugin-import": "^2.32.0",
-    "typescript": "~4.5.4",
+    "typescript": "^5.8.3",
     "vite": "^5.4.21"
   },
   "dependencies": {
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3",
     "electron-squirrel-startup": "^1.0.1"
   }
 }
