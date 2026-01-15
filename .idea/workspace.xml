@@ -4,30 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81bde2a8-fbb5-4d6f-82f5-291097ae686d" name="Changes" comment="fix linting and strictness options">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cafe-pos.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/forge.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="81bde2a8-fbb5-4d6f-82f5-291097ae686d" name="Changes" comment="updated DATABASE_SCHEMA.md">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9f5c45df-9f6b-4f26-b91d-f3194e7744ee.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9f5c45df-9f6b-4f26-b91d-f3194e7744ee.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api" beforeDir="false" afterPath="$PROJECT_DIR$/src/api" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/categories/categories.controller.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/categories/categories.controller.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/categories/categories.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/categories/categories.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/categories/categories.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/categories/categories.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/categories/categories.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/categories/categories.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/categories/categories.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/categories/categories.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/categories/dto/create-category.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/categories/dto/create-category.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/categories/entities/category.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/categories/entities/category.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/products/dto/create-product.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/products/dto/create-product.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/products/entities/product.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/products/entities/product.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/products/products.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/products/products.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/products/products.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/products/products.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/products/products.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/products/products.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/users/entities/permission.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/users/entities/permission.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/users/entities/user.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/users/entities/user.entity.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/src/components/pos-license/LicenseManager.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/src/components/pos-license/LicenseManager.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/src/types/electron.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/src/types/electron.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/preload.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/preload.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.main.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.main.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.preload.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.preload.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.renderer.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.renderer.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +31,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="221" />
+    <option name="cachedIndexableFilesCount" value="258" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -46,7 +42,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/frontend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/api" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -84,8 +80,10 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "main",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
     "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "/media/hassan/Working/My Resources/cafe-pos/src/frontend/src/types",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -96,6 +94,7 @@
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "/media/hassan/Working/My Resources/cafe-pos/node_modules/prettier",
     "settings.editor.selected.configurable": "settings.typescriptcompiler",
+    "to.speed.mode.migration.done": "true",
     "ts.external.directory.path": "/media/hassan/Working/My Resources/cafe-pos/src/frontend/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -143,7 +142,8 @@
       <workItem from="1768318107110" duration="6970000" />
       <workItem from="1768326850844" duration="3752000" />
       <workItem from="1768369014019" duration="10837000" />
-      <workItem from="1768388084856" duration="16084000" />
+      <workItem from="1768388084856" duration="16686000" />
+      <workItem from="1768443518602" duration="19141000" />
     </task>
     <task id="LOCAL-00001" summary="remove .idea from tracking">
       <option name="closed" value="true" />
@@ -201,7 +201,31 @@
       <option name="project" value="LOCAL" />
       <updated>1768390368495</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="tested license activation flow">
+      <option name="closed" value="true" />
+      <created>1768414943444</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1768414943444</updated>
+    </task>
+    <task id="LOCAL-00009" summary="tested license activation flow and ready to develop backend apis">
+      <option name="closed" value="true" />
+      <created>1768415068256</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1768415068256</updated>
+    </task>
+    <task id="LOCAL-00010" summary="updated DATABASE_SCHEMA.md">
+      <option name="closed" value="true" />
+      <created>1768496011443</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1768496011443</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +238,9 @@
     <MESSAGE value="updated permissions and nav" />
     <MESSAGE value="update mobile menu button on POS" />
     <MESSAGE value="fix linting and strictness options" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix linting and strictness options" />
+    <MESSAGE value="tested license activation flow" />
+    <MESSAGE value="tested license activation flow and ready to develop backend apis" />
+    <MESSAGE value="updated DATABASE_SCHEMA.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated DATABASE_SCHEMA.md" />
   </component>
 </project>
