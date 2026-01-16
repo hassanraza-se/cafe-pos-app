@@ -4,21 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81bde2a8-fbb5-4d6f-82f5-291097ae686d" name="Changes" comment="created categories and products modules,">
+    <list default="true" id="81bde2a8-fbb5-4d6f-82f5-291097ae686d" name="Changes" comment="integrate categories CRUD with frontend">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api" beforeDir="false" afterPath="$PROJECT_DIR$/src/api" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/src/database/seed.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/database/seed.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/src/modules/categories/categories.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/categories/categories.controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/src/modules/categories/categories.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/categories/categories.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/src/modules/categories/dto/create-category.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/categories/dto/create-category.dto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/src/modules/categories/entities/category.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/categories/entities/category.entity.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/src/components/modals/CategoryModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/src/components/modals/CategoryModal.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frontend/src/pages/Categories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/src/pages/Categories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/src/services/categoriesApi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/src/services/categoriesApi.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/src/stores/categoriesStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/src/stores/categoriesStore.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +134,7 @@
       <workItem from="1768369014019" duration="10837000" />
       <workItem from="1768388084856" duration="16686000" />
       <workItem from="1768443518602" duration="25532000" />
-      <workItem from="1768541784589" duration="5278000" />
+      <workItem from="1768541784589" duration="6799000" />
     </task>
     <task id="LOCAL-00001" summary="remove .idea from tracking">
       <option name="closed" value="true" />
@@ -229,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768496284056</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="integrate categories CRUD with frontend">
+      <option name="closed" value="true" />
+      <created>1768548104615</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1768548104615</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +249,7 @@
     <MESSAGE value="tested license activation flow and ready to develop backend apis" />
     <MESSAGE value="updated DATABASE_SCHEMA.md" />
     <MESSAGE value="created categories and products modules," />
-    <option name="LAST_COMMIT_MESSAGE" value="created categories and products modules," />
+    <MESSAGE value="integrate categories CRUD with frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="integrate categories CRUD with frontend" />
   </component>
 </project>
