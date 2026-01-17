@@ -4,16 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81bde2a8-fbb5-4d6f-82f5-291097ae686d" name="Changes" comment="integrate categories CRUD with frontend">
+    <list default="true" id="81bde2a8-fbb5-4d6f-82f5-291097ae686d" name="Changes" comment="reorder categories and implement hard deleted category">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api" beforeDir="false" afterPath="$PROJECT_DIR$/src/api" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/src/modules/categories/categories.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/categories/categories.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/src/modules/categories/categories.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/categories/categories.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/common/decorators/current-user.decorator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/common/decorators/current-user.decorator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/common/decorators/permissions.decorator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/common/decorators/permissions.decorator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/common/decorators/public.decorator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/common/decorators/public.decorator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/common/decorators/roles.decorator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/common/decorators/roles.decorator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/common/guards/jwt-auth.guard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/common/guards/jwt-auth.guard.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/common/guards/permissions.guard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/common/guards/permissions.guard.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/common/guards/roles.guard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/common/guards/roles.guard.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/database/seed.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/database/seed.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/auth/auth.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/auth/auth.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/auth/auth.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/auth/auth.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/auth/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/auth/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/auth/dto/login.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/auth/dto/login.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/auth/dto/refresh-token.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/auth/dto/refresh-token.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/auth/strategies/jwt.strategy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/auth/strategies/jwt.strategy.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/products/dto/create-product-extra.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/products/dto/create-product-extra.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/products/dto/create-product-variant.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/products/dto/create-product-variant.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/products/dto/create-product.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/products/dto/create-product.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/products/entities/product-extra.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/products/entities/product-extra.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/products/entities/product-variant.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/products/entities/product-variant.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/products/entities/product.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/products/entities/product.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/products/products.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/products/products.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/products/products.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/products/products.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/users/dto/change-password.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/users/dto/change-password.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/users/dto/create-user.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/users/dto/create-user.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/users/dto/update-user.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/users/dto/update-user.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/users/entities/permission.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/users/entities/permission.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/users/entities/role.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/users/entities/role.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/users/entities/user.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/users/entities/user.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/users/users.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/users/users.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/users/users.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/users/users.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/src/modules/users/users.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/modules/users/users.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/bun.lockb" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/bun.lockb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/src/components/modals/CategoryModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/src/components/modals/CategoryModal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/src/components/modals/ProductModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/src/components/modals/ProductModal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/src/components/pos-license/LicenseExpiryBanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/src/components/pos-license/LicenseExpiryBanner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/src/components/pos-license/LicenseManager.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/src/components/pos-license/LicenseManager.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/src/contexts/LicenseContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/src/contexts/LicenseContext.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/src/hooks/useElectron.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/src/hooks/useElectron.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/src/hooks/usePermissions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/src/hooks/usePermissions.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frontend/src/pages/Categories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/src/pages/Categories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/src/services/categoriesApi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/src/services/categoriesApi.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/src/stores/categoriesStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/src/stores/categoriesStore.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/src/pages/Products.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/src/pages/Products.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/src/pages/ViewProduct.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/src/pages/ViewProduct.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/src/stores/themeStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/src/stores/themeStore.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/src/types/electron.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/src/types/electron.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +64,6 @@
   </component>
   <component name="EmbeddingIndexingInfo">
     <option name="cachedIndexableFilesCount" value="263" />
-    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,7 +73,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/api" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/frontend" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -71,10 +112,10 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "javascript.preferred.runtime.type.id": "node",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/media/hassan/Working/My Resources/cafe-pos/src/frontend/src/types",
+    "last_opened_file_path": "E:/My Resources/cafe-pos",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -85,7 +126,7 @@
     "prettierjs.PrettierConfiguration.Package": "/media/hassan/Working/My Resources/cafe-pos/node_modules/prettier",
     "settings.editor.selected.configurable": "settings.typescriptcompiler",
     "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "/media/hassan/Working/My Resources/cafe-pos/src/frontend/node_modules/typescript/lib",
+    "ts.external.directory.path": "E:\\My Resources\\cafe-pos\\src\\frontend\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -112,6 +153,7 @@
       </set>
     </attachedChunks>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="81bde2a8-fbb5-4d6f-82f5-291097ae686d" name="Changes" comment="" />
@@ -134,7 +176,11 @@
       <workItem from="1768369014019" duration="10837000" />
       <workItem from="1768388084856" duration="16686000" />
       <workItem from="1768443518602" duration="25532000" />
-      <workItem from="1768541784589" duration="6799000" />
+      <workItem from="1768541784589" duration="29871000" />
+      <workItem from="1768584389715" duration="1522000" />
+      <workItem from="1768586029623" duration="1805000" />
+      <workItem from="1768616135201" duration="208000" />
+      <workItem from="1768616587158" duration="1273000" />
     </task>
     <task id="LOCAL-00001" summary="remove .idea from tracking">
       <option name="closed" value="true" />
@@ -232,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768548104615</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="reorder categories and implement hard deleted category">
+      <option name="closed" value="true" />
+      <created>1768549567359</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1768549567359</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +304,7 @@
     <MESSAGE value="updated DATABASE_SCHEMA.md" />
     <MESSAGE value="created categories and products modules," />
     <MESSAGE value="integrate categories CRUD with frontend" />
-    <option name="LAST_COMMIT_MESSAGE" value="integrate categories CRUD with frontend" />
+    <MESSAGE value="reorder categories and implement hard deleted category" />
+    <option name="LAST_COMMIT_MESSAGE" value="reorder categories and implement hard deleted category" />
   </component>
 </project>
