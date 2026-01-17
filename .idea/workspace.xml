@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81bde2a8-fbb5-4d6f-82f5-291097ae686d" name="Changes" comment="handle products CRUD with frontend">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9f5c45df-9f6b-4f26-b91d-f3194e7744ee.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9f5c45df-9f6b-4f26-b91d-f3194e7744ee.xml" afterDir="false" />
+    <list default="true" id="81bde2a8-fbb5-4d6f-82f5-291097ae686d" name="Changes" comment="settings permission">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api" beforeDir="false" afterPath="$PROJECT_DIR$/src/api" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/src/database/seed.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/src/database/seed.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/src/components/layout/AppSidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/src/components/layout/AppSidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/src/components/dashboard/RecentOrders.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/src/components/dashboard/RecentOrders.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/src/pages/Dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/src/pages/Dashboard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/src/pages/POS.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/src/pages/POS.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/src/pages/Products.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/src/pages/Products.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +135,7 @@
       <workItem from="1768584389715" duration="1522000" />
       <workItem from="1768586029623" duration="1805000" />
       <workItem from="1768616135201" duration="208000" />
-      <workItem from="1768616587158" duration="4816000" />
+      <workItem from="1768616587158" duration="5674000" />
     </task>
     <task id="LOCAL-00001" summary="remove .idea from tracking">
       <option name="closed" value="true" />
@@ -249,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768618138844</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="settings permission">
+      <option name="closed" value="true" />
+      <created>1768632278243</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1768632278243</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +277,7 @@
     <MESSAGE value="integrate categories CRUD with frontend" />
     <MESSAGE value="reorder categories and implement hard deleted category" />
     <MESSAGE value="handle products CRUD with frontend" />
-    <option name="LAST_COMMIT_MESSAGE" value="handle products CRUD with frontend" />
+    <MESSAGE value="settings permission" />
+    <option name="LAST_COMMIT_MESSAGE" value="settings permission" />
   </component>
 </project>
