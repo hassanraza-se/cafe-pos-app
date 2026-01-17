@@ -568,7 +568,7 @@
     <routine id="213" parent="1" name="padr"/>
     <schema id="214" parent="1" name="main">
       <Current>1</Current>
-      <LastIntrospectionLocalTimestamp>2026-01-15.13:40:33</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2026-01-17.06:19:19</LastIntrospectionLocalTimestamp>
     </schema>
     <argument id="215" parent="14">
       <ArgumentDirection>R</ArgumentDirection>
@@ -1845,7 +1845,7 @@
       <Position>5</Position>
       <StoredType>varchar(50)|0s</StoredType>
     </column>
-    <column id="644" parent="627" name="image_url">
+    <column id="644" parent="627" name="image">
       <Position>6</Position>
       <StoredType>varchar(500)|0s</StoredType>
     </column>
@@ -2096,7 +2096,7 @@
       <Position>6</Position>
       <StoredType>decimal(10,2)|0s</StoredType>
     </column>
-    <column id="693" parent="631" name="image_url">
+    <column id="693" parent="631" name="image">
       <Position>7</Position>
       <StoredType>varchar|0s</StoredType>
     </column>
@@ -2163,12 +2163,12 @@
       <RefColNames>id</RefColNames>
       <RefTableName>categories</RefTableName>
     </foreign-key>
-    <index id="706" parent="631" name="sqlite_autoindex_products_1">
+    <index id="706" parent="631" name="sqlite_autoindex_products_2">
       <ColNames>sku</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Unique>1</Unique>
     </index>
-    <index id="707" parent="631" name="sqlite_autoindex_products_2">
+    <index id="707" parent="631" name="sqlite_autoindex_products_1">
       <ColNames>barcode</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Unique>1</Unique>
@@ -2179,11 +2179,11 @@
     </key>
     <key id="709" parent="631" name="UQ_c44ac33a05b144dd0d9ddcf9327">
       <ColNames>sku</ColNames>
-      <UnderlyingIndexName>sqlite_autoindex_products_1</UnderlyingIndexName>
+      <UnderlyingIndexName>sqlite_autoindex_products_2</UnderlyingIndexName>
     </key>
     <key id="710" parent="631" name="UQ_adfc522baf9d9b19cd7d9461b7e">
       <ColNames>barcode</ColNames>
-      <UnderlyingIndexName>sqlite_autoindex_products_2</UnderlyingIndexName>
+      <UnderlyingIndexName>sqlite_autoindex_products_1</UnderlyingIndexName>
     </key>
     <column id="711" parent="632" name="role_id">
       <NotNull>1</NotNull>
